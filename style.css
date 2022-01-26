@@ -84,9 +84,10 @@
 }
 
 .hhh {
+    margin-right: 20px;
     color: white;
     display: flex;
-    gap: 20px;
+    gap: 15px;
     margin-top: 20px;
 }
 
@@ -210,7 +211,13 @@
     .navig {
         width: 100%;
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+        justify-content: center;
+    }
+    .icon {
+        margin-top: 10px;
     }
     .navigation {
         display: flex;
@@ -249,8 +256,14 @@
         padding: 10px;
         border-radius: 12px;
     }
-    .edsi {
-        margin-left: 10px;
+    .edsiz {
+        display: flex;
+        justify-content: center;
+    }
+    .edsi:hover {
+        font-size: 27px;
+        color: #151515;
+        background-color: #fffa7f;
     }
     .hhh {
         display: flex;
@@ -387,6 +400,7 @@
         font-size: 17px;
     }
     .squarebox {
+        margin-top: 0% !important;
         margin-left: 0% !important;
         margin-right: 0% !important;
         display: flex;
@@ -397,11 +411,12 @@
     }
     .some-one {
         width: 100%;
-        padding: 20px;
+        padding: 10px;
     }
     .some-tow {
         width: 100%;
-        padding: 20px;
+        padding: 10px;
+        margin-top: 65px !important;
     }
     .temp {
         font-size: 18px;
@@ -478,6 +493,7 @@
         flex-direction: column !important;
     }
     .finaly {
+        font-size: 15px;
         flex-direction: column;
     }
 }
@@ -903,4 +919,30 @@
     .durmus {
         font-size: 29px!important;
     }
+    .end {
+        display: none;
+    }
+}
+
+.end {
+    padding: 10px;
+    background-color: #fffa7f;
+    width: 100%;
+}
+
+.reg:hover {
+    transition: 5s;
+    width: 100%;
+    transform: none;
+    padding-right: 0%;
+    padding-left: 60%;
+}
+
+.powerd {
+    font-family: 'Fuzzy Bubbles', cursive;
+    font-family: 'Lemonada', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
 }
